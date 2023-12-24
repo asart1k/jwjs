@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles1.css">
+    <title>People Data</title>
+</head>
+<body>
+    <h2>People Data</h2>
+    <label for="nameFilter">Filter by Name:</label>
+    <input type="text" id="nameFilter" oninput="filterTable()">
+    <table id="peopleTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Location</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>30</td>
+                <td>New York</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>25</td>
+                <td>Los Angeles</td>
+           
+            </tr>
+        <tr></tr>
+          <td>Jake Males</td>
+            <td>54</td>
+            <td>Chicago</td>
+            <!-- Додайте інші рядки за потреби -->
+        </tbody>
+    </table>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
